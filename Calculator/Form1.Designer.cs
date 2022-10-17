@@ -34,6 +34,8 @@
             this.txtsoa = new System.Windows.Forms.TextBox();
             this.txtsob = new System.Windows.Forms.TextBox();
             this.txtKq = new System.Windows.Forms.TextBox();
+            this.btnCong = new System.Windows.Forms.Button();
+            this.btnTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -84,11 +86,33 @@
             this.txtKq.Size = new System.Drawing.Size(100, 20);
             this.txtKq.TabIndex = 1;
             // 
+            // btnCong
+            // 
+            this.btnCong.Location = new System.Drawing.Point(89, 274);
+            this.btnCong.Name = "btnCong";
+            this.btnCong.Size = new System.Drawing.Size(75, 23);
+            this.btnCong.TabIndex = 2;
+            this.btnCong.Text = "+";
+            this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
+            // 
+            // btnTru
+            // 
+            this.btnTru.Location = new System.Drawing.Point(245, 274);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(75, 23);
+            this.btnTru.TabIndex = 2;
+            this.btnTru.Text = "-";
+            this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 456);
+            this.Controls.Add(this.btnTru);
+            this.Controls.Add(this.btnCong);
             this.Controls.Add(this.txtKq);
             this.Controls.Add(this.txtsob);
             this.Controls.Add(this.txtsoa);
@@ -110,6 +134,8 @@
         private System.Windows.Forms.TextBox txtsoa;
         private System.Windows.Forms.TextBox txtsob;
         private System.Windows.Forms.TextBox txtKq;
+        private System.Windows.Forms.Button btnCong;
+        private System.Windows.Forms.Button btnTru;
     }
 }
 
