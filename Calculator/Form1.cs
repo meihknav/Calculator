@@ -36,7 +36,7 @@ namespace Calculator
 
         private void btnTru_Click(object sender, EventArgs e)
         {
-            if (txtsoa.Text != String.Empty)
+            if (txtsoa.Text != String.Empty && txtsob.Text != String.Empty)
             {
                 double a = double.Parse(txtsoa.Text);
                 double b = double.Parse(txtsob.Text);
