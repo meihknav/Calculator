@@ -1,0 +1,9 @@
+D:\Calculator\DbTest\bin\Debug\DbTest.dacpac
+D:\Calculator\DbTest\bin\Debug\DbTest.dll
+D:\Calculator\DbTest\bin\Debug\DbTest.pdb
+D:\Calculator\DbTest\obj\Debug\Model.xml
+D:\Calculator\DbTest\obj\Debug\refactor.xml
+D:\Calculator\DbTest\obj\Debug\postdeploy.sql
+D:\Calculator\DbTest\obj\Debug\predeploy.sql
+D:\Calculator\DbTest\obj\Debug\DbTest.dll
+D:\Calculator\DbTest\obj\Debug\DbTest.pdb

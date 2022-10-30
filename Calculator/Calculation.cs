@@ -35,5 +35,20 @@ namespace Calculator
             }
             return result;
         }
+        public int Sosanh(int a, int b)
+        {
+            int r;
+            //r = 1 : a>b , a>1 ,a>0
+            //r = 0 : a<b 
+            if(a>b || a>1 || a>0)
+            {
+                r = 1;
+            }
+            else
+            {
+                r = 0;
+            }
+            return r;
+        }
     }
 }
